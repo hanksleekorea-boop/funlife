@@ -1,0 +1,83 @@
+{
+  "schema_version": "v3.3-analysis-1",
+  "run_id": "20260909T123335Z",
+  "generated_at_utc": "2026-09-09T12:33:35Z",
+  "project_fingerprint": "asobi-os|codex/restore-taxonomy|read-only",
+  "artifact_type": "traceability-graph",
+  "source_artifact_ids": [
+    "EVID-001",
+    "EVID-002",
+    "EVID-003",
+    "EVID-004",
+    "EVID-005"
+  ],
+  "records": [
+    {
+      "evidence": "EVID-001",
+      "gap": "GAP-001",
+      "decision": "DEC-001",
+      "requirement": "REQ-0101",
+      "stage": "STAGE-1-BASELINE",
+      "task": "TASK-1-01",
+      "step": "STEP-101",
+      "test": "TEST-001",
+      "acceptance": "ACC-001",
+      "status": "LINKED"
+    },
+    {
+      "evidence": "EVID-002",
+      "gap": "GAP-002",
+      "decision": "DEC-002",
+      "requirement": "REQ-0102",
+      "stage": "STAGE-2-FOUNDATION",
+      "task": "TASK-2-01",
+      "step": "STEP-102",
+      "test": "TEST-002",
+      "acceptance": "ACC-002",
+      "status": "LINKED"
+    },
+    {
+      "evidence": "EVID-003",
+      "gap": "GAP-003",
+      "decision": "DEC-003",
+      "requirement": "REQ-0103",
+      "stage": "STAGE-3-CORE",
+      "task": "TASK-3-01",
+      "step": "STEP-103",
+      "test": "TEST-003",
+      "acceptance": "ACC-003",
+      "status": "LINKED"
+    },
+    {
+      "evidence": "EVID-004",
+      "gap": "GAP-004",
+      "decision": "DEC-004",
+      "requirement": "REQ-0104",
+      "stage": "STAGE-4-QUALITY",
+      "task": "TASK-4-01",
+      "step": "STEP-104",
+      "test": "TEST-004",
+      "acceptance": "ACC-004",
+      "status": "LINKED"
+    },
+    {
+      "evidence": "EVID-005",
+      "gap": "GAP-005",
+      "decision": "DEC-005",
+      "requirement": "REQ-0105",
+      "stage": "STAGE-5-RELEASE",
+      "task": "TASK-5-01",
+      "step": "STEP-105",
+      "test": "TEST-005",
+      "acceptance": "ACC-005",
+      "status": "LINKED"
+    }
+  ],
+  "counts": {
+    "records": 5
+  },
+  "unknowns": [],
+  "warnings": [],
+  "broken_links": 0,
+  "note": "연결은 모두 계획 수준이며 외부·사람 증거는 아직 미실시"
+}

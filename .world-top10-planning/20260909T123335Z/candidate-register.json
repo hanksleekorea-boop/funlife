@@ -1,0 +1,235 @@
+{
+  "schema_version": "v3.3-analysis-1",
+  "run_id": "20260909T123335Z",
+  "generated_at_utc": "2026-09-09T12:33:35Z",
+  "project_fingerprint": "asobi-os|codex/restore-taxonomy|read-only",
+  "artifact_type": "candidate-register",
+  "source_artifact_ids": [
+    "EVID-001",
+    "EVID-002",
+    "EVID-003",
+    "EVID-004",
+    "EVID-005"
+  ],
+  "records": [
+    {
+      "candidate_id": "CAND-001",
+      "name": "Asoview!",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-002",
+      "name": "Activity Japan",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-003",
+      "name": "VELTRA",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-004",
+      "name": "Jalan Activity",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-005",
+      "name": "Klook",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-006",
+      "name": "KKday",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-007",
+      "name": "Viator",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-008",
+      "name": "GetYourGuide",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-009",
+      "name": "Tripadvisor Attractions",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-010",
+      "name": "Airbnb Experiences",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-011",
+      "name": "AllTrails",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-012",
+      "name": "Komoot",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-013",
+      "name": "YAMAP",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-014",
+      "name": "Yamareco",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-015",
+      "name": "Google Maps",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-016",
+      "name": "NAVITIME",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-017",
+      "name": "Jorudan",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-018",
+      "name": "Rakuten Travel",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-019",
+      "name": "Japan Travel",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-020",
+      "name": "Trip.com",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-021",
+      "name": "Michi-no-Eki",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-022",
+      "name": "Weathernews",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-023",
+      "name": "JMA",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-024",
+      "name": "MLIT",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-025",
+      "name": "Hiking Map",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-026",
+      "name": "Outdooractive",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-027",
+      "name": "Wikiloc",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-028",
+      "name": "Mapy.com",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-029",
+      "name": "Relive",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "candidate_id": "CAND-030",
+      "name": "PeakVisor",
+      "source": "EVID-003",
+      "current_external_recheck": false,
+      "eligibility": "UNKNOWN"
+    }
+  ],
+  "counts": {
+    "records": 30
+  },
+  "unknowns": [],
+  "warnings": [],
+  "candidate_pool_size": 30,
+  "target_pool_size": 800,
+  "external_recheck_count": 0,
+  "status": "PARTIAL"
+}

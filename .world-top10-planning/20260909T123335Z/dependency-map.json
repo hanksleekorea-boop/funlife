@@ -1,0 +1,41 @@
+{
+  "schema_version": "v3.3-analysis-1",
+  "run_id": "20260909T123335Z",
+  "generated_at_utc": "2026-09-09T12:33:35Z",
+  "project_fingerprint": "asobi-os|codex/restore-taxonomy|read-only",
+  "artifact_type": "dependency-map",
+  "source_artifact_ids": [
+    "EVID-001",
+    "EVID-002",
+    "EVID-003",
+    "EVID-004",
+    "EVID-005"
+  ],
+  "records": [
+    {
+      "from": "GAP-001",
+      "to": "REQ-0101",
+      "type": "blocks"
+    },
+    {
+      "from": "GAP-002",
+      "to": "REQ-0102",
+      "type": "blocks"
+    },
+    {
+      "from": "GAP-003",
+      "to": "REQ-0103",
+      "type": "blocks"
+    },
+    {
+      "from": "GAP-005",
+      "to": "REQ-0105",
+      "type": "blocks"
+    }
+  ],
+  "counts": {
+    "records": 4
+  },
+  "unknowns": [],
+  "warnings": []
+}

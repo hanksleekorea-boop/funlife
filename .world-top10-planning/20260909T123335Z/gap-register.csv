@@ -1,0 +1,6 @@
+gap_id,title,severity,status,evidence_id
+GAP-001,E02 사람 안전 검토,P0,BLOCKED,EVID-002
+GAP-002,자료원 68개 약관·승인,P0,BLOCKED,EVID-002
+GAP-003,OAuth callback/session,P0,BLOCKED,EVID-004
+GAP-004,실기기·접근성·오프라인 증거,P1,BLOCKED,EVID-002
+GAP-005,Top10 균일 외부 근거,P1,BLOCKED,EVID-003

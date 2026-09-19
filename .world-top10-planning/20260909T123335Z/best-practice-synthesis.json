@@ -1,0 +1,39 @@
+{
+  "schema_version": "v3.3-analysis-1",
+  "run_id": "20260909T123335Z",
+  "generated_at_utc": "2026-09-09T12:33:35Z",
+  "project_fingerprint": "asobi-os|codex/restore-taxonomy|read-only",
+  "artifact_type": "best-practice-synthesis",
+  "source_artifact_ids": [
+    "EVID-001",
+    "EVID-002",
+    "EVID-003",
+    "EVID-004",
+    "EVID-005"
+  ],
+  "records": [
+    {
+      "practice_id": "BP-001",
+      "title": "근거가 보이는 결과 카드",
+      "source": "internal design",
+      "adoption": "PLAN_ONLY"
+    },
+    {
+      "practice_id": "BP-002",
+      "title": "안전 차단 fail-closed",
+      "source": "P7 project rule",
+      "adoption": "IMPLEMENTED_LOCAL"
+    },
+    {
+      "practice_id": "BP-003",
+      "title": "모바일·PC 상태 일치",
+      "source": "benchmark hypothesis",
+      "adoption": "DISCOVERY_REQUIRED"
+    }
+  ],
+  "counts": {
+    "records": 3
+  },
+  "unknowns": [],
+  "warnings": []
+}

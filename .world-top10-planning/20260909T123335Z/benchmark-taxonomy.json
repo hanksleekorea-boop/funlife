@@ -1,0 +1,215 @@
+{
+  "schema_version": "v3.3-analysis-1",
+  "run_id": "20260909T123335Z",
+  "generated_at_utc": "2026-09-09T12:33:35Z",
+  "project_fingerprint": "asobi-os|codex/restore-taxonomy|read-only",
+  "artifact_type": "benchmark-taxonomy",
+  "source_artifact_ids": [
+    "EVID-001",
+    "EVID-002",
+    "EVID-003",
+    "EVID-004",
+    "EVID-005"
+  ],
+  "records": [
+    {
+      "metric_id": "M-001",
+      "name": "첫 가치",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-002",
+      "name": "핵심 과업",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-003",
+      "name": "개인화",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-004",
+      "name": "결과 설명",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-005",
+      "name": "오류 복구",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-006",
+      "name": "저장·공유",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-007",
+      "name": "모바일",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-008",
+      "name": "PC",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-009",
+      "name": "연속성",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-010",
+      "name": "접근성",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-011",
+      "name": "성능",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-012",
+      "name": "개인정보",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-013",
+      "name": "계정 삭제",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-014",
+      "name": "가격",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-015",
+      "name": "지원",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-016",
+      "name": "장기 사용",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-017",
+      "name": "팀 관리",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-018",
+      "name": "차별화",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-019",
+      "name": "신뢰",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-020",
+      "name": "부작용 회피",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-021",
+      "name": "데이터 최신성",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-022",
+      "name": "근거 표시",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-023",
+      "name": "오프라인",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-024",
+      "name": "다국어",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-025",
+      "name": "알림",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-026",
+      "name": "검색",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-027",
+      "name": "필터",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-028",
+      "name": "결제 경계",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-029",
+      "name": "안전 차단",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-030",
+      "name": "관측성",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-031",
+      "name": "복구",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    },
+    {
+      "metric_id": "M-032",
+      "name": "운영 비용",
+      "definition": "동일 척도로 직접 확인",
+      "status": "DISCOVERY_REQUIRED"
+    }
+  ],
+  "counts": {
+    "records": 32
+  },
+  "unknowns": [],
+  "warnings": [],
+  "target_atomic_metrics": 1600,
+  "actual_atomic_metrics": 0
+}

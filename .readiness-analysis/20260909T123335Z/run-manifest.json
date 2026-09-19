@@ -1,0 +1,39 @@
+{
+  "schema_version": "v3.3-analysis-1",
+  "run_id": "20260909T123335Z",
+  "generated_at_utc": "2026-09-09T12:33:35Z",
+  "project_fingerprint": "asobi-os|codex/restore-taxonomy|read-only",
+  "artifact_type": "readiness-run-manifest",
+  "source_artifact_ids": [
+    "EVID-001",
+    "EVID-002",
+    "EVID-003",
+    "EVID-004",
+    "EVID-005"
+  ],
+  "records": [],
+  "counts": {
+    "records": 0
+  },
+  "unknowns": [],
+  "warnings": [],
+  "engine_status": "BLOCKED_SUPPLY_HASH_MISMATCH",
+  "engine_supply_urls": [
+    "https://hanksleekorea-boop.github.io/readiness-hub/engine/readiness-engine.mjs",
+    "https://hanksleekorea-boop.github.io/readiness-hub/engine/lens-core-v2.1.json",
+    "https://hanksleekorea-boop.github.io/readiness-hub/engine/project-evidence.example.json"
+  ],
+  "expected_sha256": {
+    "readiness-engine.mjs": "9dd4b165ff3993868b59c9025883f71726fa3b39184ca1b01c2e8549169cdf33",
+    "lens-core-v2.1.json": "ba293f43a4e12c4f0eb58f654cfb9fa57a586a629b1fb51233a2a5b58d46c094",
+    "project-evidence.example.json": "f59c9aafa4ed0d7ac1e15eb4bc673b47fdde43d4e7d5c9b60d75d354fdf42db6"
+  },
+  "observed_sha256": {
+    "readiness-engine.mjs": "a6a5da2d9e7c5e2fb01294e61e1114f803580df3452ba3e2a12caa9223348bd0",
+    "lens-core-v2.1.json": "ba293f43a4e12c4f0eb58f654cfb9fa57a586a629b1fb51233a2a5b58d46c094",
+    "project-evidence.example.json": "683710d33eb70add151f0003d2dc85b653621babe56d3e8489f5f92b4e918c8c"
+  },
+  "overwrite_existing": 0,
+  "external_mutations": 0,
+  "reason": "engine and example supply hashes differ from the fixed v3.3 contract; do not run Node or auto-update hashes"
+}

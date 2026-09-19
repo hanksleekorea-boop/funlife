@@ -1,0 +1,71 @@
+{
+  "schema_version": "v3.3-analysis-1",
+  "run_id": "20260909T123335Z",
+  "generated_at_utc": "2026-09-09T12:33:35Z",
+  "project_fingerprint": "asobi-os|codex/restore-taxonomy|read-only",
+  "artifact_type": "requirements-register",
+  "source_artifact_ids": [
+    "EVID-001",
+    "EVID-002",
+    "EVID-003",
+    "EVID-004",
+    "EVID-005"
+  ],
+  "records": [
+    {
+      "requirement_id": "REQ-0101",
+      "title": "보존 가능한 기준선",
+      "priority": "P0",
+      "source_gap": "GAP-001",
+      "stage": "STAGE-1-BASELINE",
+      "task_id": "TASK-E-01",
+      "test_id": "TEST-101",
+      "acceptance_id": "ACC-101"
+    },
+    {
+      "requirement_id": "REQ-0102",
+      "title": "자료원 승인 장부",
+      "priority": "P0",
+      "source_gap": "GAP-002",
+      "stage": "STAGE-2-FOUNDATION",
+      "task_id": "TASK-N-01",
+      "test_id": "TEST-102",
+      "acceptance_id": "ACC-102"
+    },
+    {
+      "requirement_id": "REQ-0103",
+      "title": "OAuth callback 경계",
+      "priority": "P0",
+      "source_gap": "GAP-003",
+      "stage": "STAGE-3-CORE",
+      "task_id": "TASK-E-01",
+      "test_id": "TEST-103",
+      "acceptance_id": "ACC-103"
+    },
+    {
+      "requirement_id": "REQ-0104",
+      "title": "모바일/PC 접근성",
+      "priority": "P1",
+      "source_gap": "GAP-004",
+      "stage": "STAGE-4-QUALITY",
+      "task_id": "TASK-Y-01",
+      "test_id": "TEST-104",
+      "acceptance_id": "ACC-104"
+    },
+    {
+      "requirement_id": "REQ-0105",
+      "title": "공개·복구 인수",
+      "priority": "P1",
+      "source_gap": "GAP-005",
+      "stage": "STAGE-5-RELEASE",
+      "task_id": "TASK-E-01",
+      "test_id": "TEST-105",
+      "acceptance_id": "ACC-105"
+    }
+  ],
+  "counts": {
+    "records": 5
+  },
+  "unknowns": [],
+  "warnings": []
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "v3.3-analysis-1",
+  "run_id": "20260909T123335Z",
+  "generated_at_utc": "2026-09-09T12:33:35Z",
+  "project_fingerprint": "asobi-os|codex/restore-taxonomy|read-only",
+  "artifact_type": "world-top10-run-manifest",
+  "source_artifact_ids": [
+    "EVID-001",
+    "EVID-002",
+    "EVID-003",
+    "EVID-004",
+    "EVID-005"
+  ],
+  "records": [],
+  "counts": {
+    "records": 0
+  },
+  "unknowns": [],
+  "warnings": [],
+  "mode": "END_TO_END",
+  "status": "PARTIAL/BLOCKED",
+  "product_changes": 0,
+  "external_research_rechecked": 0,
+  "top10_locked": false,
+  "readiness_engine_started": false
+}

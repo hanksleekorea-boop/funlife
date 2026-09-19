@@ -1,0 +1,45 @@
+{
+  "schema_version": "v3.3-analysis-1",
+  "run_id": "20260909T123335Z",
+  "generated_at_utc": "2026-09-09T12:33:35Z",
+  "project_fingerprint": "asobi-os|codex/restore-taxonomy|read-only",
+  "artifact_type": "crh-project-evidence",
+  "source_artifact_ids": [
+    "EVID-001",
+    "EVID-002",
+    "EVID-003",
+    "EVID-004",
+    "EVID-005"
+  ],
+  "records": [
+    {
+      "evidence_id": "EVID-001",
+      "area": "project",
+      "claim": "AsobiOS v3.0, local contracts and public PWA/PC surfaces exist",
+      "status": "CONFIRMED",
+      "source": "STATE.md"
+    },
+    {
+      "evidence_id": "EVID-002",
+      "area": "safety",
+      "claim": "E02 human review pending",
+      "status": "BLOCKED",
+      "source": ".project-continuity/STATE.md"
+    },
+    {
+      "evidence_id": "EVID-003",
+      "area": "device",
+      "claim": "adb devices currently 0",
+      "status": "NOT_AVAILABLE",
+      "source": ".project-continuity/STATE.md"
+    }
+  ],
+  "counts": {
+    "records": 3
+  },
+  "unknowns": [],
+  "warnings": [],
+  "areas": 15,
+  "required_gates": 40,
+  "secret_values_included": false
+}

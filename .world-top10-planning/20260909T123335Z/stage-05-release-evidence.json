@@ -1,0 +1,297 @@
+{
+  "schema_version": "asobi-stage5-release-evidence/v1",
+  "run_id": "20260909T123335Z",
+  "generated_at": "2026-09-09T14:31:56.961466+00:00",
+  "public_root": "https://asobi-os.hanksleedee.chatgpt.site",
+  "gates": [
+    {
+      "gate_id": "G01",
+      "area": "baseline",
+      "status": "PASS",
+      "reason": "2\\230_API_DB_v3.0.md\"\n M site/public/asobi-app-qr.png\n M tools/verify_handoff.js\n?? .analysis-tools/\n?? .competitive-analysis/\n?? .integrated-development/\n?? .product-intelligence-v33/\n?? .readiness-analysis/\n?? .world-class-analysis/\n?? .world-top10-planning/\n?? docs/SHARED_STORAGE_D_CONTRACT_20260909.md\n?? engines/e03_score.py\n?? src/shared-storage-adapter.mjs\n?? tests/shared_storage_adapter.test.mjs\n?? tests/test_e03_score.py\n?? tests/test_integrated_v34.py\n?? tests/test_stage5_release.py\n?? tools/generate_integrated_v34.py\n?? tools/verify_integrated_v34.py\n?? tools/verify_stage5_release.py",
+      "evidence": "git status"
+    },
+    {
+      "gate_id": "G02",
+      "area": "safety",
+      "status": "PASS",
+      "reason": "{\n  \"result\": \"PASS\",\n  \"scope\": \"all\",\n  \"findings\": []\n}",
+      "evidence": "safety lint"
+    },
+    {
+      "gate_id": "G03",
+      "area": "schema",
+      "status": "PASS",
+      "reason": "{\"result\": \"PASS\", \"observation_metrics\": 34, \"safety_metrics\": 12, \"rules\": 25, \"golden_cases\": 500, \"json_schema_defs\": 2}",
+      "evidence": "schema parity"
+    },
+    {
+      "gate_id": "G04",
+      "area": "license",
+      "status": "PASS",
+      "reason": "PASS: license gate blocks 68 unreviewed sources",
+      "evidence": "license gate"
+    },
+    {
+      "gate_id": "G05",
+      "area": "quality",
+      "status": "PASS",
+      "reason": "PASS: installable static PWA shell, external manifest, icons, and offline worker are present",
+      "evidence": "PWA verifier"
+    },
+    {
+      "gate_id": "G06",
+      "area": "quality",
+      "status": "PASS",
+      "reason": " ships the app, PC, dashboard, PWA, and social-card assets\n  ---\n  duration_ms: 16.3388\n  type: 'test'\n  ...\n# Subtest: defines an anonymous-safe account boundary\nok 4 - defines an anonymous-safe account boundary\n  ---\n  duration_ms: 2.5893\n  type: 'test'\n  ...\n# Subtest: uses the verified AdSense account but keeps ad requests fail-closed until activation\nok 5 - uses the verified AdSense account but keeps ad requests fail-closed until activation\n  ---\n  duration_ms: 5.7197\n  type: 'test'\n  ...\n1..5\n# tests 5\n# suites 0\n# pass 5\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 835.4087",
+      "evidence": "rendered HTML"
+    },
+    {
+      "gate_id": "G07",
+      "area": "handoff",
+      "status": "PASS",
+      "reason": "{\n  \"result\": \"PASS\",\n  \"handoff_files\": 100,\n  \"checks\": 33,\n  \"git_repository\": true,\n  \"public_url\": \"https://asobi-os.hanksleedee.chatgpt.site\"\n}",
+      "evidence": "handoff verifier"
+    },
+    {
+      "gate_id": "G08",
+      "area": "catalog",
+      "status": "PASS",
+      "reason": "{\"result\": \"PASS\", \"entries\": 0, \"status\": \"blocked_empty\"}",
+      "evidence": "launch catalog"
+    },
+    {
+      "gate_id": "G09",
+      "area": "public",
+      "status": "PASS",
+      "reason": "HTTP 200",
+      "evidence": "https://asobi-os.hanksleedee.chatgpt.site/"
+    },
+    {
+      "gate_id": "G10",
+      "area": "public",
+      "status": "PASS",
+      "reason": "HTTP 200",
+      "evidence": "https://asobi-os.hanksleedee.chatgpt.site/app/"
+    },
+    {
+      "gate_id": "G11",
+      "area": "public",
+      "status": "PASS",
+      "reason": "HTTP 200",
+      "evidence": "https://asobi-os.hanksleedee.chatgpt.site/pc/"
+    },
+    {
+      "gate_id": "G12",
+      "area": "public",
+      "status": "PASS",
+      "reason": "HTTP 200",
+      "evidence": "https://asobi-os.hanksleedee.chatgpt.site/dashboard-v3"
+    },
+    {
+      "gate_id": "G13",
+      "area": "public",
+      "status": "PASS",
+      "reason": "HTTP 200",
+      "evidence": "https://asobi-os.hanksleedee.chatgpt.site/account"
+    },
+    {
+      "gate_id": "G14",
+      "area": "public",
+      "status": "PASS",
+      "reason": "HTTP 200",
+      "evidence": "https://asobi-os.hanksleedee.chatgpt.site/asobi-app-qr.png"
+    },
+    {
+      "gate_id": "G15",
+      "area": "public",
+      "status": "PASS",
+      "reason": "HTTP 200",
+      "evidence": "https://asobi-os.hanksleedee.chatgpt.site/privacy"
+    },
+    {
+      "gate_id": "G16",
+      "area": "public",
+      "status": "PASS",
+      "reason": "HTTP 200",
+      "evidence": "https://asobi-os.hanksleedee.chatgpt.site/ads.txt"
+    },
+    {
+      "gate_id": "G17",
+      "area": "evidence",
+      "status": "PASS",
+      "reason": "file present",
+      "evidence": "README.md"
+    },
+    {
+      "gate_id": "G18",
+      "area": "evidence",
+      "status": "PASS",
+      "reason": "file present",
+      "evidence": "STATE.md"
+    },
+    {
+      "gate_id": "G19",
+      "area": "evidence",
+      "status": "PASS",
+      "reason": "file present",
+      "evidence": ".project-continuity/STATE.md"
+    },
+    {
+      "gate_id": "G20",
+      "area": "evidence",
+      "status": "PASS",
+      "reason": "file present",
+      "evidence": ".project-continuity/HISTORY.md"
+    },
+    {
+      "gate_id": "G21",
+      "area": "evidence",
+      "status": "PASS",
+      "reason": "file present",
+      "evidence": "docs/Vol1_마스터_v3.0.md"
+    },
+    {
+      "gate_id": "G22",
+      "area": "evidence",
+      "status": "PASS",
+      "reason": "file present",
+      "evidence": "docs/Vol6_법무안전운영재무_v3.0.md"
+    },
+    {
+      "gate_id": "G23",
+      "area": "evidence",
+      "status": "PASS",
+      "reason": "file present",
+      "evidence": "site/public/asobi-app-qr.png"
+    },
+    {
+      "gate_id": "G24",
+      "area": "evidence",
+      "status": "PASS",
+      "reason": "file present",
+      "evidence": "site/app/ads.txt/route.ts"
+    },
+    {
+      "gate_id": "G25",
+      "area": "evidence",
+      "status": "PASS",
+      "reason": "file present",
+      "evidence": "site/app/privacy/page.tsx"
+    },
+    {
+      "gate_id": "G26",
+      "area": "evidence",
+      "status": "PASS",
+      "reason": "file present",
+      "evidence": ".world-top10-planning/20260909T123335Z/five-stage-detailed-development-plan.md"
+    },
+    {
+      "gate_id": "G27",
+      "area": "evidence",
+      "status": "PASS",
+      "reason": "file present",
+      "evidence": ".product-intelligence-v33/20260909T123335Z/STAGE1-4_EXECUTION_20260909.md"
+    },
+    {
+      "gate_id": "G28",
+      "area": "human",
+      "status": "BLOCKED",
+      "reason": "P1-03 E02 사람 안전 검토 서명 없음",
+      "evidence": "docs/P1-03_E02_HUMAN_SAFETY_REVIEW.md"
+    },
+    {
+      "gate_id": "G29",
+      "area": "license",
+      "status": "BLOCKED",
+      "reason": "승인 자료원 0/68",
+      "evidence": "data/license_registry.yaml"
+    },
+    {
+      "gate_id": "G30",
+      "area": "auth",
+      "status": "BLOCKED",
+      "reason": "Asobi OAuth callback/session 백엔드 없음",
+      "evidence": "AUTH_BACKEND_MISSING"
+    },
+    {
+      "gate_id": "G31",
+      "area": "data",
+      "status": "BLOCKED",
+      "reason": "실제 DB/API 및 운영 자료 없음",
+      "evidence": "services/api"
+    },
+    {
+      "gate_id": "G32",
+      "area": "device",
+      "status": "BLOCKED",
+      "reason": "ADB 기기 0대; 실기기 시험 미실시",
+      "evidence": "adb devices -l"
+    },
+    {
+      "gate_id": "G33",
+      "area": "accessibility",
+      "status": "BLOCKED",
+      "reason": "스크린리더 실측 미실시",
+      "evidence": "STAGE-4-QUALITY"
+    },
+    {
+      "gate_id": "G34",
+      "area": "readiness",
+      "status": "BLOCKED",
+      "reason": "Readiness 공급 파일 지문 불일치",
+      "evidence": "D:\\Desktop\\챗지피티프로젝트들\\아소비넷\\.readiness-analysis\\20260909T123335Z\\run-manifest.json"
+    },
+    {
+      "gate_id": "G35",
+      "area": "hosting",
+      "status": "BLOCKED",
+      "reason": "Cloudflare/Sites 소유 프로젝트 확인 불가",
+      "evidence": "docs/INTEGRATED_HOSTING_AUDIT_20260908.md"
+    },
+    {
+      "gate_id": "G36",
+      "area": "ads",
+      "status": "BLOCKED",
+      "reason": "AdSense 승인·CMP·실제 노출 미확인",
+      "evidence": "site/public/ads.txt"
+    },
+    {
+      "gate_id": "G37",
+      "area": "competition",
+      "status": "BLOCKED",
+      "reason": "외부 Top10 비교군 미고정",
+      "evidence": "TOP10_NOT_LOCKED"
+    },
+    {
+      "gate_id": "G38",
+      "area": "rollback",
+      "status": "PASS",
+      "reason": "분석 산출물 복구 절차 문서 존재",
+      "evidence": ".world-top10-planning/20260909T123335Z/stages/stage-05/rollback.md"
+    },
+    {
+      "gate_id": "G39",
+      "area": "handoff",
+      "status": "BLOCKED",
+      "reason": "최신 ZIP 재생성은 정본 연속성 실행기 부재",
+      "evidence": "account-independent-begin-v414.py"
+    },
+    {
+      "gate_id": "G40",
+      "area": "release",
+      "status": "BLOCKED",
+      "reason": "앞선 게이트 미충족으로 공개 승인 불가",
+      "evidence": "fail-closed release policy"
+    }
+  ],
+  "summary": {
+    "total": 40,
+    "passed": 28,
+    "failed": 0,
+    "blocked": 12,
+    "status": "BLOCKED"
+  },
+  "mutation_count": 0,
+  "release_allowed": false
+}

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "project": "아소비넷",
+    "timestamp": "2026-09-19T15:04:21.025Z",
+    "version": "v3.3"
+  },
+  "engine_A": {
+    "domain_match": [
+      "AsobiNet",
+      "SaaS",
+      "Aggregator"
+    ],
+    "target_audience": "Global Users, Professionals",
+    "key_features": [
+      "신작 리뷰",
+      "커뮤니티 포럼",
+      "e스포츠 중계"
+    ],
+    "market_size_estimate": "$10B+",
+    "core_problem_solved": "무한한 즐거움이 가득한 게임 및 엔터테인먼트 허브."
+  }
+}
